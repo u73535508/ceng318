@@ -1,0 +1,23 @@
+.navMenu {
+  display: grid;
+  float: right;
+  background-color: #404040;
+  padding: 5px 10px 5px 10px;
+  grid-template-rows: 1fr 1fr 1fr;
+  border-radius: 10%;
+}
+.link {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  text-decoration: none;
+  color: #f3f6f4;
+  background-color: #7574ff;
+  width: 120px;
+
+  /* border-radius: 8px; */
+  text-align: center;
+  font-size: 25px;
+}
+.container {
+  margin-right: 0;
+}

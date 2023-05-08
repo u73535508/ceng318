@@ -1,0 +1,85 @@
+.header {
+  /* padding: 2rem 10%; */
+  margin: 0;
+  text-align: center;
+  display: grid;
+  border-bottom: 1px solid #ffba49;
+  height: 120px;
+  grid-template-columns: 4.4fr 3fr 2.6fr;
+}
+.imgContainer {
+  position: relative;
+}
+
+.heading {
+  font-size: 40px;
+  display: flex;
+
+  align-items: center;
+  color: #ffba49;
+  margin-top: 50px;
+  text-decoration: none;
+}
+.logoImg {
+  width: 150px;
+  position: absolute;
+  bottom: -55px;
+  left: 10%;
+}
+.navContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  margin-top: 20%;
+  gap: 10px;
+}
+.navButton {
+  padding: 0;
+  /* border-right: 2px solid 404040; */
+  height: 50px;
+  /* height: 46px; */
+  /* display: inline-block; */
+  /* justify-content: center; */
+  /* height: 50px; */
+  background-color: transparent;
+  border: none;
+  /* position: relative;
+  display: grid;
+  grid-template-columns: 1.4fr 0.6fr;
+  grid-template-rows: 1fr; */
+  display: flex;
+  gap: 15px;
+  text-decoration: none;
+}
+.navImg {
+  /* position: absolute; */
+  /* right: 25%;
+  top: 70%; */
+  width: 50px;
+}
+.Link {
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #eceaf2;
+  color: #2a2630;
+  border: none;
+  border-radius: 4px;
+  /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); */
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.Link:hover {
+  background-color: #8c6cf7;
+}
+.signIn {
+  align-self: center;
+  color: #f3f6f4;
+  border: none;
+  text-decoration: none;
+  width: max-content;
+}
